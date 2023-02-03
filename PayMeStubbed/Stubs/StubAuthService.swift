@@ -6,15 +6,13 @@
 //
 
 import Foundation
-import PayMePackage
+import PayMeLibrary
 
 class StubAuthService: AuthService {
-    
-    func login(username: String, password: String, completion: @escaping (Result<Void, AuthError>) -> Void) {
-        if username == "JohnDoe" && password == "Password!" {
-            completion(.success(()))
+    func loginAsync(username: String, password: String) async throws {
+        if username == "43906621" && password == "Password" {
         } else {
-            completion(.failure(.notAuthenticated))
+            throw(AuthError.notAuthenticated)
         }
     }
 }

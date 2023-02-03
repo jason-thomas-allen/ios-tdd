@@ -14,5 +14,5 @@ public enum AuthError: Error {
 }
 
 public protocol AuthService {
-    func login(username: String, password: String, completion: @escaping (Result<Void, AuthError>) -> Void)
+    func loginAsync(username: String, password: String) async throws -> Void
 }

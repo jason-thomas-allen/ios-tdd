@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct LoginResponse: Codable {
+struct AuthResponse: Codable {
     let success: Bool
 }

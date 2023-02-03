@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PayMePackage
+import PayMeLibrary
 
 @main
 struct PayMeStubbedApp: App {

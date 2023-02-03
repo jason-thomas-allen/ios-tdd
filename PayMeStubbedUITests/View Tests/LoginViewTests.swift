@@ -34,8 +34,8 @@ final class given_user_is_on_login_screen: XCTestCase {
     
     func test_when_user_clicks_login_then_navigate_to_home_page_when_authenticated() {
         
-        loginView.userName = "JohnDoe"
-        loginView.password = "Password!"
+        loginView.userName = "43906621"
+        loginView.password = "Password"
         
         loginView.login()
         
@@ -45,7 +45,7 @@ final class given_user_is_on_login_screen: XCTestCase {
     
     func test_when_user_clicks_login_then_display_error_message_for_invalid_credentials() {
         
-        loginView.userName = "JohnDoe"
+        loginView.userName = "43906621"
         loginView.password = "WrongPassword"
                 
         loginView.login()

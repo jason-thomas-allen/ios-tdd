@@ -10,7 +10,6 @@ import SwiftUI
 public struct LoginView: View {
     
     @EnvironmentObject private var loginVM: LoginViewModel
-    //@State private var message: String = ""
     
     public init() {}
     
@@ -42,7 +41,10 @@ public struct LoginView: View {
                     HStack {
                         Spacer()
                         Button {
-                            loginVM.login()
+                            Task {
+                                await loginVM.login()
+                            }
+                            
                         } label: {
                             Text("Login")
                                 .accessibilityIdentifier("loginButton")

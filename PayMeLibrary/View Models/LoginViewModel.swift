@@ -12,43 +12,34 @@ enum LoginStatus {
     case authenticated
     case denied
     case validationFailed
+    case unexpectedError
 }
 
-protocol VM {
-    func login()
-}
-
-public class LoginViewModel: ObservableObject, VM {
+public class LoginViewModel: ObservableObject {
     
     @Published var username: String = ""
     @Published var password: String = ""
     @Published var loginStatus: LoginStatus = .none
     
     private var service: AuthService
-    
+
     public init(service: AuthService) {
         self.service = service
     }
     
-    func login() {
-        
+
+    func login() async {
+
         if username.isEmpty || password.isEmpty {
             self.loginStatus = .validationFailed
             return
         }
         
-        service.login(username: username, password: password) { result in
-            switch result {
-                case .success():
-                        DispatchQueue.main.async {
-                            self.loginStatus = .authenticated
-                        }
-                case .failure(_):
-                    DispatchQueue.main.async {
-                        self.loginStatus = .denied
-                    }
-            }
+        do {
+            try await service.loginAsync(username: username, password: password)
+            self.loginStatus = .authenticated
+        } catch {
+            self.loginStatus = .denied
         }
     }
-    
 }

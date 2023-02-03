@@ -16,20 +16,40 @@ class LoginViewPage {
         self.app = app
     }
     
-    var usernameTextField: XCUIElement {
+    private var usernameTextField: XCUIElement {
         app.textFields["usernameTextField"]
     }
     
-    var passwordTextField: XCUIElement {
+    var userName: String {
+        set(userName) {
+            usernameTextField.tap()
+            usernameTextField.typeText(userName)
+        }
+        get {
+            return usernameTextField.value as! String
+        }
+    }
+        
+    private var passwordTextField: XCUIElement {
         app.textFields["passwordTextField"]
     }
     
-    var loginButton: XCUIElement {
-        app.buttons["loginButton"]
+    var password: String {
+        set(password) {
+            passwordTextField.tap()
+            passwordTextField.typeText(password)
+        }
+        get {
+            return passwordTextField.value as! String
+        }
+    }
+    
+    func login() {
+        app.buttons["loginButton"].tap()
     }
 
-    var messageText: XCUIElement {
-        app.staticTexts["messageText"]
+    var message: String {
+        app.staticTexts["messageText"].label
     }
     
 }
