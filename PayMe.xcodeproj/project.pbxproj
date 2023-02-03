@@ -7,41 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9F9F26A2986186200BE46C1 /* PayMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2692986186200BE46C1 /* PayMeApp.swift */; };
-		A9F9F26C2986186200BE46C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F26B2986186200BE46C1 /* ContentView.swift */; };
-		A9F9F26E2986186600BE46C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F9F26D2986186600BE46C1 /* Assets.xcassets */; };
-		A9F9F2712986186600BE46C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F9F2702986186600BE46C1 /* Preview Assets.xcassets */; };
-		A9F9F27B2986186600BE46C1 /* PayMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F27A2986186600BE46C1 /* PayMeTests.swift */; };
-		A9F9F2852986186600BE46C1 /* PayMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2842986186600BE46C1 /* PayMeUITests.swift */; };
-		A9F9F2872986186600BE46C1 /* PayMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2862986186600BE46C1 /* PayMeUITestsLaunchTests.swift */; };
+		A754D1ED51CAF02E43E69B12 /* PayMeStubbedTests-PayMeStubbedMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62E83A2FA4E7E823C85FB9 /* PayMeStubbedTests-PayMeStubbedMocks.generated.swift */; };
+		A9553A4F298C8EDF00CE472A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A4E298C8EDF00CE472A /* AuthService.swift */; };
+		A9553A52298C8EF000CE472A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A51298C8EF000CE472A /* LoginViewModel.swift */; };
+		A9553A56298C8F0D00CE472A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A54298C8F0D00CE472A /* LoginView.swift */; };
+		A9553A57298C8F0D00CE472A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A55298C8F0D00CE472A /* HomeView.swift */; };
+		A9553A5A298C9F2000CE472A /* LoginViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A59298C9F2000CE472A /* LoginViewTests.swift */; };
+		A9553A5D298CCC1900CE472A /* WebAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A5C298CCC1900CE472A /* WebAuthService.swift */; };
+		A9553A60298CD28B00CE472A /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9553A5F298CD28B00CE472A /* AuthResponse.swift */; };
 		A9F9F29B2986192B00BE46C1 /* PayMeStubbedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F29A2986192B00BE46C1 /* PayMeStubbedApp.swift */; };
 		A9F9F29F2986192C00BE46C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F9F29E2986192C00BE46C1 /* Assets.xcassets */; };
 		A9F9F2A22986192C00BE46C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F9F2A12986192C00BE46C1 /* Preview Assets.xcassets */; };
-		A9F9F2AC2986192C00BE46C1 /* PayMeStubbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2AB2986192C00BE46C1 /* PayMeStubbedTests.swift */; };
-		A9F9F2B62986192D00BE46C1 /* PayMeStubbedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2B52986192D00BE46C1 /* PayMeStubbedUITests.swift */; };
+		A9F9F2AC2986192C00BE46C1 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2AB2986192C00BE46C1 /* LoginViewModelTests.swift */; };
+		A9F9F2B62986192D00BE46C1 /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2B52986192D00BE46C1 /* HomeViewTests.swift */; };
 		A9F9F2B82986192D00BE46C1 /* PayMeStubbedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2B72986192D00BE46C1 /* PayMeStubbedUITestsLaunchTests.swift */; };
 		A9F9F2C429861CB600BE46C1 /* LoginViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2C329861CB600BE46C1 /* LoginViewPage.swift */; };
 		A9F9F2C62986203000BE46C1 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2C52986203000BE46C1 /* HomePageView.swift */; };
-		A9F9F2C92986259E00BE46C1 /* PayMePackage in Frameworks */ = {isa = PBXBuildFile; productRef = A9F9F2C82986259E00BE46C1 /* PayMePackage */; };
 		A9F9F2CC29862D9C00BE46C1 /* StubAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2CB29862D9C00BE46C1 /* StubAuthService.swift */; };
 		A9F9F2CF29880A9D00BE46C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F9F2CD29880A6A00BE46C1 /* ContentView.swift */; };
+		A9F9F2D6298C054700BE46C1 /* Mockingbird in Frameworks */ = {isa = PBXBuildFile; productRef = A9F9F2D5298C054700BE46C1 /* Mockingbird */; };
+		A9F9F2E6298C8BAD00BE46C1 /* libPayMeLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F9F2DD298C893000BE46C1 /* libPayMeLibrary.a */; };
+		C9E0668E10B23B2951D9A44B /* PayMeStubbedTests-PayMeLibraryMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A824AAAE20AA64AC249C817 /* PayMeStubbedTests-PayMeLibraryMocks.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A9F9F2772986186600BE46C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9F9F25E2986186200BE46C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9F9F2652986186200BE46C1;
-			remoteInfo = PayMe;
-		};
-		A9F9F2812986186600BE46C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9F9F25E2986186200BE46C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9F9F2652986186200BE46C1;
-			remoteInfo = PayMe;
-		};
 		A9F9F2A82986192C00BE46C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9F9F25E2986186200BE46C1 /* Project object */;
@@ -56,62 +45,59 @@
 			remoteGlobalIDString = A9F9F2972986192B00BE46C1;
 			remoteInfo = PayMeStubbed;
 		};
+		A9F9F2E4298C898700BE46C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9F9F25E2986186200BE46C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F9F2DC298C893000BE46C1;
+			remoteInfo = PayMeLibrary;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A9F9F2DB298C893000BE46C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		A9F9F2662986186200BE46C1 /* PayMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F9F2692986186200BE46C1 /* PayMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeApp.swift; sourceTree = "<group>"; };
-		A9F9F26B2986186200BE46C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A9F9F26D2986186600BE46C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9F9F2702986186600BE46C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9F9F2762986186600BE46C1 /* PayMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F9F27A2986186600BE46C1 /* PayMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeTests.swift; sourceTree = "<group>"; };
-		A9F9F2802986186600BE46C1 /* PayMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F9F2842986186600BE46C1 /* PayMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeUITests.swift; sourceTree = "<group>"; };
-		A9F9F2862986186600BE46C1 /* PayMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A9F9F293298618F300BE46C1 /* PayMePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PayMePackage; sourceTree = "<group>"; };
+		2A824AAAE20AA64AC249C817 /* PayMeStubbedTests-PayMeLibraryMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "PayMeStubbedTests-PayMeLibraryMocks.generated.swift"; path = "MockingbirdMocks/PayMeStubbedTests-PayMeLibraryMocks.generated.swift"; sourceTree = "<group>"; };
+		A9553A4E298C8EDF00CE472A /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		A9553A51298C8EF000CE472A /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A9553A54298C8F0D00CE472A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A9553A55298C8F0D00CE472A /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A9553A59298C9F2000CE472A /* LoginViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTests.swift; sourceTree = "<group>"; };
+		A9553A5C298CCC1900CE472A /* WebAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthService.swift; sourceTree = "<group>"; };
+		A9553A5F298CD28B00CE472A /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		A9F9F2982986192B00BE46C1 /* PayMeStubbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayMeStubbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F9F29A2986192B00BE46C1 /* PayMeStubbedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeStubbedApp.swift; sourceTree = "<group>"; };
 		A9F9F29E2986192C00BE46C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F9F2A12986192C00BE46C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9F9F2A72986192C00BE46C1 /* PayMeStubbedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMeStubbedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F9F2AB2986192C00BE46C1 /* PayMeStubbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeStubbedTests.swift; sourceTree = "<group>"; };
+		A9F9F2AB2986192C00BE46C1 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
 		A9F9F2B12986192D00BE46C1 /* PayMeStubbedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMeStubbedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F9F2B52986192D00BE46C1 /* PayMeStubbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeStubbedUITests.swift; sourceTree = "<group>"; };
+		A9F9F2B52986192D00BE46C1 /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
 		A9F9F2B72986192D00BE46C1 /* PayMeStubbedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeStubbedUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A9F9F2C329861CB600BE46C1 /* LoginViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPage.swift; sourceTree = "<group>"; };
 		A9F9F2C52986203000BE46C1 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		A9F9F2CB29862D9C00BE46C1 /* StubAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubAuthService.swift; sourceTree = "<group>"; };
 		A9F9F2CD29880A6A00BE46C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9F9F2DD298C893000BE46C1 /* libPayMeLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPayMeLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC62E83A2FA4E7E823C85FB9 /* PayMeStubbedTests-PayMeStubbedMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "PayMeStubbedTests-PayMeStubbedMocks.generated.swift"; path = "MockingbirdMocks/PayMeStubbedTests-PayMeStubbedMocks.generated.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9F9F2632986186200BE46C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F9F2732986186600BE46C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F9F27D2986186600BE46C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9F9F2952986192B00BE46C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F9F2C92986259E00BE46C1 /* PayMePackage in Frameworks */,
+				A9F9F2E6298C8BAD00BE46C1 /* libPayMeLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F9F2D6298C054700BE46C1 /* Mockingbird in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,71 +116,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9F9F2DA298C893000BE46C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207A61446339ADC9F991BAA6 /* Generated Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BC62E83A2FA4E7E823C85FB9 /* PayMeStubbedTests-PayMeStubbedMocks.generated.swift */,
+				2A824AAAE20AA64AC249C817 /* PayMeStubbedTests-PayMeLibraryMocks.generated.swift */,
+			);
+			name = "Generated Mocks";
+			sourceTree = "<group>";
+		};
+		A9553A4D298C8EDF00CE472A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9553A4E298C8EDF00CE472A /* AuthService.swift */,
+				A9553A5C298CCC1900CE472A /* WebAuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A9553A50298C8EF000CE472A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9553A51298C8EF000CE472A /* LoginViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A9553A53298C8F0D00CE472A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9553A54298C8F0D00CE472A /* LoginView.swift */,
+				A9553A55298C8F0D00CE472A /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A9553A58298C9ECB00CE472A /* View Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9553A59298C9F2000CE472A /* LoginViewTests.swift */,
+				A9F9F2B52986192D00BE46C1 /* HomeViewTests.swift */,
+			);
+			path = "View Tests";
+			sourceTree = "<group>";
+		};
+		A9553A5B298C9FE600CE472A /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9F9F2AB2986192C00BE46C1 /* LoginViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		A9553A5E298CD27B00CE472A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9553A5F298CD28B00CE472A /* AuthResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A9F9F25D2986186200BE46C1 = {
 			isa = PBXGroup;
 			children = (
-				A9F9F293298618F300BE46C1 /* PayMePackage */,
-				A9F9F2682986186200BE46C1 /* PayMe */,
-				A9F9F2792986186600BE46C1 /* PayMeTests */,
-				A9F9F2832986186600BE46C1 /* PayMeUITests */,
+				A9F9F2DE298C893100BE46C1 /* PayMeLibrary */,
 				A9F9F2992986192B00BE46C1 /* PayMeStubbed */,
 				A9F9F2AA2986192C00BE46C1 /* PayMeStubbedTests */,
 				A9F9F2B42986192D00BE46C1 /* PayMeStubbedUITests */,
 				A9F9F2672986186200BE46C1 /* Products */,
 				A9F9F2C72986259E00BE46C1 /* Frameworks */,
+				207A61446339ADC9F991BAA6 /* Generated Mocks */,
 			);
 			sourceTree = "<group>";
 		};
 		A9F9F2672986186200BE46C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9F9F2662986186200BE46C1 /* PayMe.app */,
-				A9F9F2762986186600BE46C1 /* PayMeTests.xctest */,
-				A9F9F2802986186600BE46C1 /* PayMeUITests.xctest */,
 				A9F9F2982986192B00BE46C1 /* PayMeStubbed.app */,
 				A9F9F2A72986192C00BE46C1 /* PayMeStubbedTests.xctest */,
 				A9F9F2B12986192D00BE46C1 /* PayMeStubbedUITests.xctest */,
+				A9F9F2DD298C893000BE46C1 /* libPayMeLibrary.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A9F9F2682986186200BE46C1 /* PayMe */ = {
-			isa = PBXGroup;
-			children = (
-				A9F9F2692986186200BE46C1 /* PayMeApp.swift */,
-				A9F9F26B2986186200BE46C1 /* ContentView.swift */,
-				A9F9F26D2986186600BE46C1 /* Assets.xcassets */,
-				A9F9F26F2986186600BE46C1 /* Preview Content */,
-			);
-			path = PayMe;
-			sourceTree = "<group>";
-		};
-		A9F9F26F2986186600BE46C1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A9F9F2702986186600BE46C1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A9F9F2792986186600BE46C1 /* PayMeTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9F9F27A2986186600BE46C1 /* PayMeTests.swift */,
-			);
-			path = PayMeTests;
-			sourceTree = "<group>";
-		};
-		A9F9F2832986186600BE46C1 /* PayMeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A9F9F2842986186600BE46C1 /* PayMeUITests.swift */,
-				A9F9F2862986186600BE46C1 /* PayMeUITestsLaunchTests.swift */,
-			);
-			path = PayMeUITests;
 			sourceTree = "<group>";
 		};
 		A9F9F2992986192B00BE46C1 /* PayMeStubbed */ = {
@@ -219,7 +233,7 @@
 		A9F9F2AA2986192C00BE46C1 /* PayMeStubbedTests */ = {
 			isa = PBXGroup;
 			children = (
-				A9F9F2AB2986192C00BE46C1 /* PayMeStubbedTests.swift */,
+				A9553A5B298C9FE600CE472A /* ViewModelTests */,
 			);
 			path = PayMeStubbedTests;
 			sourceTree = "<group>";
@@ -227,8 +241,8 @@
 		A9F9F2B42986192D00BE46C1 /* PayMeStubbedUITests */ = {
 			isa = PBXGroup;
 			children = (
+				A9553A58298C9ECB00CE472A /* View Tests */,
 				A9F9F2C229861C8400BE46C1 /* Page Objects */,
-				A9F9F2B52986192D00BE46C1 /* PayMeStubbedUITests.swift */,
 				A9F9F2B72986192D00BE46C1 /* PayMeStubbedUITestsLaunchTests.swift */,
 			);
 			path = PayMeStubbedUITests;
@@ -258,62 +272,20 @@
 			path = Stubs;
 			sourceTree = "<group>";
 		};
+		A9F9F2DE298C893100BE46C1 /* PayMeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A9553A5E298CD27B00CE472A /* Models */,
+				A9553A4D298C8EDF00CE472A /* Services */,
+				A9553A50298C8EF000CE472A /* View Models */,
+				A9553A53298C8F0D00CE472A /* Views */,
+			);
+			path = PayMeLibrary;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9F9F2652986186200BE46C1 /* PayMe */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9F9F28A2986186600BE46C1 /* Build configuration list for PBXNativeTarget "PayMe" */;
-			buildPhases = (
-				A9F9F2622986186200BE46C1 /* Sources */,
-				A9F9F2632986186200BE46C1 /* Frameworks */,
-				A9F9F2642986186200BE46C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PayMe;
-			productName = PayMe;
-			productReference = A9F9F2662986186200BE46C1 /* PayMe.app */;
-			productType = "com.apple.product-type.application";
-		};
-		A9F9F2752986186600BE46C1 /* PayMeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9F9F28D2986186600BE46C1 /* Build configuration list for PBXNativeTarget "PayMeTests" */;
-			buildPhases = (
-				A9F9F2722986186600BE46C1 /* Sources */,
-				A9F9F2732986186600BE46C1 /* Frameworks */,
-				A9F9F2742986186600BE46C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9F9F2782986186600BE46C1 /* PBXTargetDependency */,
-			);
-			name = PayMeTests;
-			productName = PayMeTests;
-			productReference = A9F9F2762986186600BE46C1 /* PayMeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A9F9F27F2986186600BE46C1 /* PayMeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9F9F2902986186600BE46C1 /* Build configuration list for PBXNativeTarget "PayMeUITests" */;
-			buildPhases = (
-				A9F9F27C2986186600BE46C1 /* Sources */,
-				A9F9F27D2986186600BE46C1 /* Frameworks */,
-				A9F9F27E2986186600BE46C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9F9F2822986186600BE46C1 /* PBXTargetDependency */,
-			);
-			name = PayMeUITests;
-			productName = PayMeUITests;
-			productReference = A9F9F2802986186600BE46C1 /* PayMeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		A9F9F2972986192B00BE46C1 /* PayMeStubbed */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9F9F2B92986192D00BE46C1 /* Build configuration list for PBXNativeTarget "PayMeStubbed" */;
@@ -325,11 +297,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				A9F9F2E5298C898700BE46C1 /* PBXTargetDependency */,
 			);
 			name = PayMeStubbed;
-			packageProductDependencies = (
-				A9F9F2C82986259E00BE46C1 /* PayMePackage */,
-			);
 			productName = PayMeStubbed;
 			productReference = A9F9F2982986192B00BE46C1 /* PayMeStubbed.app */;
 			productType = "com.apple.product-type.application";
@@ -338,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9F9F2BC2986192D00BE46C1 /* Build configuration list for PBXNativeTarget "PayMeStubbedTests" */;
 			buildPhases = (
+				A91A01CE5494673021D0C017 /* Generate Mockingbird Mocks */,
 				A9F9F2A32986192C00BE46C1 /* Sources */,
 				A9F9F2A42986192C00BE46C1 /* Frameworks */,
 				A9F9F2A52986192C00BE46C1 /* Resources */,
@@ -345,9 +316,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				A9F9F2D8298C080400BE46C1 /* PBXTargetDependency */,
 				A9F9F2A92986192C00BE46C1 /* PBXTargetDependency */,
 			);
 			name = PayMeStubbedTests;
+			packageProductDependencies = (
+				A9F9F2D5298C054700BE46C1 /* Mockingbird */,
+			);
 			productName = PayMeStubbedTests;
 			productReference = A9F9F2A72986192C00BE46C1 /* PayMeStubbedTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -370,6 +345,23 @@
 			productReference = A9F9F2B12986192D00BE46C1 /* PayMeStubbedUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A9F9F2DC298C893000BE46C1 /* PayMeLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F9F2E1298C893100BE46C1 /* Build configuration list for PBXNativeTarget "PayMeLibrary" */;
+			buildPhases = (
+				A9F9F2D9298C893000BE46C1 /* Sources */,
+				A9F9F2DA298C893000BE46C1 /* Frameworks */,
+				A9F9F2DB298C893000BE46C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayMeLibrary;
+			productName = PayMeLibrary;
+			productReference = A9F9F2DD298C893000BE46C1 /* libPayMeLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -380,17 +372,6 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					A9F9F2652986186200BE46C1 = {
-						CreatedOnToolsVersion = 14.2;
-					};
-					A9F9F2752986186600BE46C1 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A9F9F2652986186200BE46C1;
-					};
-					A9F9F27F2986186600BE46C1 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A9F9F2652986186200BE46C1;
-					};
 					A9F9F2972986192B00BE46C1 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -401,6 +382,9 @@
 					A9F9F2B02986192C00BE46C1 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = A9F9F2972986192B00BE46C1;
+					};
+					A9F9F2DC298C893000BE46C1 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
@@ -413,44 +397,22 @@
 				Base,
 			);
 			mainGroup = A9F9F25D2986186200BE46C1;
+			packageReferences = (
+				A9F9F2D2298BFEF900BE46C1 /* XCRemoteSwiftPackageReference "mockingbird" */,
+			);
 			productRefGroup = A9F9F2672986186200BE46C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9F9F2652986186200BE46C1 /* PayMe */,
-				A9F9F2752986186600BE46C1 /* PayMeTests */,
-				A9F9F27F2986186600BE46C1 /* PayMeUITests */,
 				A9F9F2972986192B00BE46C1 /* PayMeStubbed */,
 				A9F9F2A62986192C00BE46C1 /* PayMeStubbedTests */,
 				A9F9F2B02986192C00BE46C1 /* PayMeStubbedUITests */,
+				A9F9F2DC298C893000BE46C1 /* PayMeLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A9F9F2642986186200BE46C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F9F2712986186600BE46C1 /* Preview Assets.xcassets in Resources */,
-				A9F9F26E2986186600BE46C1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F9F2742986186600BE46C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F9F27E2986186600BE46C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9F9F2962986192B00BE46C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -476,33 +438,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A91A01CE5494673021D0C017 /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Mockingbird Mocks";
+			outputPaths = (
+				"$(SRCROOT)/MockingbirdMocks/PayMeStubbedTests-PayMeStubbedMocks.generated.swift",
+				"$(SRCROOT)/MockingbirdMocks/PayMeStubbedTests-PayMeLibraryMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\n# Prevent Xcode 13 from running this script while indexing.\n[[ \"${ACTION}\" == \"indexbuild\" ]] && exit 0\n\n# Infer the derived data location from the build environment.\n[[ -z \"${DERIVED_DATA+x}\" ]] && DERIVED_DATA=\"$(echo \"${BUILD_ROOT}\" | sed -n 's|\\(.*\\)/Build/.*|\\1|p')\"\n\n\"${DERIVED_DATA}/SourcePackages/checkouts/mockingbird/mockingbird\" generate --targets \"PayMeStubbed\" \"PayMeLibrary\" --outputs \"${SRCROOT}/MockingbirdMocks/PayMeStubbedTests-PayMeStubbedMocks.generated.swift\" \"${SRCROOT}/MockingbirdMocks/PayMeStubbedTests-PayMeLibraryMocks.generated.swift\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		A9F9F2622986186200BE46C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F9F26C2986186200BE46C1 /* ContentView.swift in Sources */,
-				A9F9F26A2986186200BE46C1 /* PayMeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F9F2722986186600BE46C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F9F27B2986186600BE46C1 /* PayMeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9F9F27C2986186600BE46C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9F9F2852986186600BE46C1 /* PayMeUITests.swift in Sources */,
-				A9F9F2872986186600BE46C1 /* PayMeUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A9F9F2942986192B00BE46C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,7 +473,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F9F2AC2986192C00BE46C1 /* PayMeStubbedTests.swift in Sources */,
+				A9F9F2AC2986192C00BE46C1 /* LoginViewModelTests.swift in Sources */,
+				A754D1ED51CAF02E43E69B12 /* PayMeStubbedTests-PayMeStubbedMocks.generated.swift in Sources */,
+				C9E0668E10B23B2951D9A44B /* PayMeStubbedTests-PayMeLibraryMocks.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,26 +483,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F9F2B62986192D00BE46C1 /* PayMeStubbedUITests.swift in Sources */,
+				A9553A5A298C9F2000CE472A /* LoginViewTests.swift in Sources */,
+				A9F9F2B62986192D00BE46C1 /* HomeViewTests.swift in Sources */,
 				A9F9F2B82986192D00BE46C1 /* PayMeStubbedUITestsLaunchTests.swift in Sources */,
 				A9F9F2C62986203000BE46C1 /* HomePageView.swift in Sources */,
 				A9F9F2C429861CB600BE46C1 /* LoginViewPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A9F9F2D9298C893000BE46C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9553A56298C8F0D00CE472A /* LoginView.swift in Sources */,
+				A9553A57298C8F0D00CE472A /* HomeView.swift in Sources */,
+				A9553A60298CD28B00CE472A /* AuthResponse.swift in Sources */,
+				A9553A52298C8EF000CE472A /* LoginViewModel.swift in Sources */,
+				A9553A5D298CCC1900CE472A /* WebAuthService.swift in Sources */,
+				A9553A4F298C8EDF00CE472A /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A9F9F2782986186600BE46C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9F9F2652986186200BE46C1 /* PayMe */;
-			targetProxy = A9F9F2772986186600BE46C1 /* PBXContainerItemProxy */;
-		};
-		A9F9F2822986186600BE46C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9F9F2652986186200BE46C1 /* PayMe */;
-			targetProxy = A9F9F2812986186600BE46C1 /* PBXContainerItemProxy */;
-		};
 		A9F9F2A92986192C00BE46C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9F9F2972986192B00BE46C1 /* PayMeStubbed */;
@@ -554,6 +516,15 @@
 			isa = PBXTargetDependency;
 			target = A9F9F2972986192B00BE46C1 /* PayMeStubbed */;
 			targetProxy = A9F9F2B22986192D00BE46C1 /* PBXContainerItemProxy */;
+		};
+		A9F9F2D8298C080400BE46C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = A9F9F2D7298C080400BE46C1 /* PayMePackage */;
+		};
+		A9F9F2E5298C898700BE46C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F9F2DC298C893000BE46C1 /* PayMeLibrary */;
+			targetProxy = A9F9F2E4298C898700BE46C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -608,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -662,147 +633,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A9F9F28B2986186600BE46C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PayMe/Preview Content\"";
-				DEVELOPMENT_TEAM = JJX3XFYDLA;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A9F9F28C2986186600BE46C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PayMe/Preview Content\"";
-				DEVELOPMENT_TEAM = JJX3XFYDLA;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A9F9F28E2986186600BE46C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JJX3XFYDLA;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayMe";
-			};
-			name = Debug;
-		};
-		A9F9F28F2986186600BE46C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JJX3XFYDLA;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayMe";
-			};
-			name = Release;
-		};
-		A9F9F2912986186600BE46C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JJX3XFYDLA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PayMe;
-			};
-			name = Debug;
-		};
-		A9F9F2922986186600BE46C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JJX3XFYDLA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PayMe;
 			};
 			name = Release;
 		};
@@ -873,7 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJX3XFYDLA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMeStubbedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -893,7 +730,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJX3XFYDLA;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.dubshepherd.PayMeStubbedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -940,6 +777,32 @@
 			};
 			name = Release;
 		};
+		A9F9F2E2298C893100BE46C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJX3XFYDLA;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F9F2E3298C893100BE46C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJX3XFYDLA;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -948,33 +811,6 @@
 			buildConfigurations = (
 				A9F9F2882986186600BE46C1 /* Debug */,
 				A9F9F2892986186600BE46C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9F9F28A2986186600BE46C1 /* Build configuration list for PBXNativeTarget "PayMe" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9F9F28B2986186600BE46C1 /* Debug */,
-				A9F9F28C2986186600BE46C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9F9F28D2986186600BE46C1 /* Build configuration list for PBXNativeTarget "PayMeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9F9F28E2986186600BE46C1 /* Debug */,
-				A9F9F28F2986186600BE46C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A9F9F2902986186600BE46C1 /* Build configuration list for PBXNativeTarget "PayMeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9F9F2912986186600BE46C1 /* Debug */,
-				A9F9F2922986186600BE46C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1006,10 +842,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A9F9F2E1298C893100BE46C1 /* Build configuration list for PBXNativeTarget "PayMeLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F9F2E2298C893100BE46C1 /* Debug */,
+				A9F9F2E3298C893100BE46C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		A9F9F2D2298BFEF900BE46C1 /* XCRemoteSwiftPackageReference "mockingbird" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/birdrides/mockingbird";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		A9F9F2C82986259E00BE46C1 /* PayMePackage */ = {
+		A9F9F2D5298C054700BE46C1 /* Mockingbird */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9F9F2D2298BFEF900BE46C1 /* XCRemoteSwiftPackageReference "mockingbird" */;
+			productName = Mockingbird;
+		};
+		A9F9F2D7298C080400BE46C1 /* PayMePackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PayMePackage;
 		};
