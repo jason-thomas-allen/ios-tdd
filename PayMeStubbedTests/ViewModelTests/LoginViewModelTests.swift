@@ -7,7 +7,7 @@
 
 import XCTest
 import Mockingbird
-@testable import PayMeLibrary
+@testable import PayMeFramework
 
 class given_login_view_model: XCTestCase {
     

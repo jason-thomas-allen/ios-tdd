@@ -72,7 +72,6 @@ public struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        //LoginView().environmentObject(LoginViewModel(service: Webservice()))
-        LoginView()
+        LoginView().environmentObject(LoginViewModel(service: WebAuthService()))
     }
 }

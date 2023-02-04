@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PayMeLibrary
+import PayMeFramework
 
 struct ContentView: View {
     

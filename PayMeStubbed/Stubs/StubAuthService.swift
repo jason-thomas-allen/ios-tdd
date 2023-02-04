@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import PayMeLibrary
+import PayMeFramework
 
 class StubAuthService: AuthService {
     func loginAsync(username: String, password: String) async throws {
